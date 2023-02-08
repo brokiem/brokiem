@@ -27,24 +27,23 @@ jobs:
           # Options
           user: brokiem
           template: classic
-          base: header, activity, repositories, metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Makassar
-          plugin_achievements: false
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: true
-          plugin_achievements_threshold: C
-          plugin_languages: true
+          plugin_languages: yes
+          plugin_languages_aliases: Vue:JavaScript
           plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 20
+          plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_people: false
-          plugin_people_limit: 28
-          plugin_people_size: 28
-          plugin_people_types: followers, following
           plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          repositories_forks: yes
