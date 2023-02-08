@@ -27,7 +27,7 @@ jobs:
           # Options
           user: brokiem
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, repositories, metadata
           config_timezone: Asia/Makassar
           plugin_achievements: false
           plugin_achievements_display: compact
@@ -37,7 +37,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 10
+          plugin_languages_limit: 20
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
@@ -47,3 +47,4 @@ jobs:
           plugin_people_limit: 28
           plugin_people_size: 28
           plugin_people_types: followers, following
+          plugin_lines: yes
