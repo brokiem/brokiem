@@ -44,6 +44,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_lines: yes
           plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
+          plugin_lines_repositories_limit: 100
           plugin_lines_sections: base
           repositories_forks: yes
