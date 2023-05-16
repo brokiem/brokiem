@@ -27,7 +27,7 @@ jobs:
           # Options
           user: brokiem
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories, metadata
           config_timezone: Asia/Makassar
           plugin_languages: yes
           plugin_languages_aliases: Vue:JavaScript
@@ -38,10 +38,10 @@ jobs:
           plugin_languages_limit: 20
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 1000
+          plugin_languages_recent_load: 1000
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_threshold: 2%
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
